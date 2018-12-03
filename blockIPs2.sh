@@ -1,4 +1,6 @@
 #!/bin/bash
+
+#This script blocks all flows between IPs listed in Block_Ips.csv and target (10.0.0.5)
 export IFS=","
 while read var ip
 do
