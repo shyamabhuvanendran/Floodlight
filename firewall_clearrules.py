@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+
+#This script clears all existing firewall rules
 import json
 import urllib.request
 import requests
